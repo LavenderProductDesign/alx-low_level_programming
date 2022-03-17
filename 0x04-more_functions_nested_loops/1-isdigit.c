@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - check if the character is UpperCase
- * @c: the character to be checked
- * Return: 1 if lower, 0 if capital
+ * * _isdigit - checks for a digit (0 to 9)
+ * * @c: the character to be checked
+ * * Return: 1 if lower, 0 if capital
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	return (c >= 65 && c <= 90);
+	return (c >= 48 && c <= 57);
 }
