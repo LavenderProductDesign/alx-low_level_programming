@@ -2,11 +2,12 @@
 #define DOG_H
 
 /**
- *  * struct dog - structure definition of a dog
- *   * @name: character string
- *    * @age: integer
- *     * @owner: character string
- *      */
+ * struct dog - structure definition of a dog
+ * typedef: dog_t
+ * @name: character string
+ * @age: integer
+ * @owner: character string
+ */
 
 typedef struct dog
 {
