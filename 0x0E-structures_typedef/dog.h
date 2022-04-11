@@ -1,21 +1,24 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE dog.h
+#ifndef DOG_H
+#define DOG_H
+
 /**
- * struct dog - creates a new structure dog
- * @name: holds name of dog
- * @age: holds age of dog
- * @owner: holds owner of the dog
- * Description: structure dog has name, age and owner
-**/
-struct dog
+ *  * struct dog - structure definition of a dog
+ *   * @name: character string
+ *    * @age: integer
+ *     * @owner: character string
+ *      */
+
+typedef struct dog
 {
-	char *name;
-	float age;
-	char *owner;
-};
+		char *name;
+			float age;
+				char *owner;
+} dog_t;
+
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-typedef struct dog dog_t;
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
+char *_strcpy(char *dest, char *src);
+int _strlen(char *s);
 #endif
