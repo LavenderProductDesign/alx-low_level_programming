@@ -15,7 +15,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
-* create_file - check the code 
+* create_file - check the code
 * @filename: file to create.
 * @text_content: info to write into the file.
 * Return: 1 on success, -1 on failure
