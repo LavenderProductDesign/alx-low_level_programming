@@ -4,11 +4,3 @@ SRC = school.c main.c
 
 all:
 		$(CC) $(SRC) -o school
-		Footer
-		© 2022 GitHub, Inc.
-		Footer navigation
-		Terms
-		Privacy
-		Security
-		Status
-
